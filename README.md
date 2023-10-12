@@ -30,3 +30,4 @@ After get response json string and parse to json
 const result = await orderDetail(orderId);
 const data = JSON.parse(result)
 ```
+Note: Not tested in the example because it conflicts with the local module. I created an empty project for testing, name "OtherEXampleApp"
